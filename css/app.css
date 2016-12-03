@@ -1,0 +1,59 @@
+/* This is comment in CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    width: 69%;
+}
+
+button {
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 3.5px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rmvBtn { /*Class for Remove Buttons*/
+    background-color: red;
+    float: right;
+    margin-top: -1px;
+}
+
+#addBtn { /*Unique Id for Add Button*/
+    width: 28%;
+    background-color: green;
+}
+
+ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    display: block;
+    border: 1px solid #999999;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 12px 10px;
+}
+
+li:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+li:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
